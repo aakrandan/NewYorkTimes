@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewsArticleTableViewCell" rowHeight="170" id="KGk-i7-Jjw" customClass="NewsArticleTableViewCell" customModule="NewYorkTimes" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="336" height="170"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="336" height="170"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Full Return to the office? Does 'Never' Work for you?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJX-Ly-3dr">
+                        <rect key="frame" x="20" y="14" width="213" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="213" id="Lt1-Bu-JHU"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="33" id="gQS-Mh-dwp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Tey-FA-89g">
+                        <rect key="frame" x="241" y="14" width="75" height="75"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="75" id="ZHf-PH-589"/>
+                            <constraint firstAttribute="height" constant="75" id="s5e-CO-yEU"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="June 9, 2022" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ryr-6L-q5L">
+                        <rect key="frame" x="24" y="142" width="75" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="75" id="Bre-Do-1Yc"/>
+                            <constraint firstAttribute="height" constant="15" id="qsk-fD-OzS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="twj-8F-72j">
+                        <rect key="frame" x="24" y="58" width="200" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="JGB-kT-p5q"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="rHr-61-3by"/>
+                        </constraints>
+                        <string key="text">A House panel will begin its public sessions on Thursday with video testimony from people close to former President Trump, and footage revealing the role of the Proud Boys.</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Azi Paybarah" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mcs-Yh-uxf">
+                        <rect key="frame" x="228" y="141" width="88" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="88" id="9m6-o4-udF"/>
+                            <constraint firstAttribute="height" constant="15" id="FVp-hT-uf2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="Ryr-6L-q5L" secondAttribute="bottom" constant="2" id="E9x-Xv-0Y3"/>
+                    <constraint firstItem="Mcs-Yh-uxf" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ryr-6L-q5L" secondAttribute="trailing" constant="10" id="Ggd-ay-cYw"/>
+                    <constraint firstItem="twj-8F-72j" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="4" id="JZ1-X5-fAH"/>
+                    <constraint firstItem="twj-8F-72j" firstAttribute="top" secondItem="eJX-Ly-3dr" secondAttribute="bottom" constant="8" symbolic="YES" id="Jz8-70-2o2"/>
+                    <constraint firstItem="Mcs-Yh-uxf" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="K8J-U6-0ZH"/>
+                    <constraint firstItem="Tey-FA-89g" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="KSf-sj-WAH"/>
+                    <constraint firstItem="Ryr-6L-q5L" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="4" id="MSs-Jt-LSc"/>
+                    <constraint firstItem="eJX-Ly-3dr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="RWk-iS-nqi"/>
+                    <constraint firstAttribute="trailing" secondItem="Tey-FA-89g" secondAttribute="trailing" constant="20" symbolic="YES" id="UvJ-Bg-6L7"/>
+                    <constraint firstItem="Ryr-6L-q5L" firstAttribute="top" relation="greaterThanOrEqual" secondItem="twj-8F-72j" secondAttribute="bottom" constant="10" id="VrF-wN-hgj"/>
+                    <constraint firstItem="eJX-Ly-3dr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="mKK-bH-7Cy"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Mcs-Yh-uxf" secondAttribute="bottom" constant="3" id="v2A-Mv-Mbc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="abstractLabel" destination="twj-8F-72j" id="dni-XA-98N"/>
+                <outlet property="authorLabel" destination="Mcs-Yh-uxf" id="Dhv-1A-aKl"/>
+                <outlet property="dateLabel" destination="Ryr-6L-q5L" id="9Tg-p5-0JE"/>
+                <outlet property="thumbnailImageView" destination="Tey-FA-89g" id="bEb-5B-EWq"/>
+                <outlet property="titleLabel" destination="eJX-Ly-3dr" id="yab-Bw-qqb"/>
+            </connections>
+            <point key="canvasLocation" x="144.92753623188406" y="114.50892857142857"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="placeholder" width="800" height="600"/>
+    </resources>
+</document>
